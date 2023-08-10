@@ -149,17 +149,19 @@ padding: 150px 80px;
   
   margin: 15px 0 0 0px;
 }
-.homepage .workButton button{ 
-  
+.homepage .workButton a{ 
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	padding: 10px 15px;
 	border-radius: 20px;
   font-size: 20px;
-  border: none;
+  
 
 }
- .workButton button:hover,
+ .workButton a:hover,
  .homepage .socialMedia img:hover
  { 
   background-color:rgba(148, 144, 144, 0.867);
@@ -183,6 +185,7 @@ padding: 150px 80px;
   background-color: #ffffff;
   border-radius: 100%;
   padding: 5px;
+  
   
 }
 
@@ -394,7 +397,7 @@ color: #9b9b9b;
 
 
   .homepage{
-    padding: 150px 40px;
+    padding: 170px 40px;
 
   }
 
@@ -431,7 +434,7 @@ color: #9b9b9b;
 
 
   .tagLine h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 40px 0px 0px 0px;
   }
 
@@ -439,7 +442,7 @@ color: #9b9b9b;
 
 
   .tagLine h4{
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
 
@@ -488,7 +491,12 @@ color: #9b9b9b;
 
 
 
-@media(max-width:477px) {
+@media(max-width:399px) {
+
+  .homepage{
+    padding: 170px 20px;
+
+  }
 
   .mob-hmaburger-menu i {
       padding: 20px 15px 0px 10px;
