@@ -142,6 +142,7 @@ padding: 150px 80px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   padding: 5px 5px;
+  color: #9b9b9b;
 }
 
 
@@ -390,18 +391,10 @@ color: #9b9b9b;
     font-size: 30px;
 }
 
-
-  
-
-
-
-
   .homepage{
     padding: 170px 40px;
 
   }
-
-
 
 
   .homepage .title{
@@ -423,18 +416,13 @@ color: #9b9b9b;
   }
 
 
-
-
-
-
-
   .teamMinfo{
     margin: 10px 20px 30px 20px;
   }
 
 
   .tagLine h1{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 40px 0px 0px 0px;
   }
 
@@ -447,13 +435,13 @@ color: #9b9b9b;
 
 
 
-
-
-
   .content{
     flex-direction: column;
   }
 
+  .content .image{
+    height: 300px;
+  }
 
 
 
