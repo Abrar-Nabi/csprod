@@ -426,7 +426,7 @@ color: #9b9b9b;
 
 
   .tagLine h1{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 40px 0px 0px 0px;
   }
 
@@ -447,7 +447,9 @@ color: #9b9b9b;
     height: 300px;
   }
 
-
+  .teamMinfo img{
+    height: 150px;
+  }
 
 
 
