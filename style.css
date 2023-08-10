@@ -225,6 +225,10 @@ padding: 150px 80px;
   color: #9b9b9b;
   padding: 0 0 20px 0;
 }
+.teamDes p{
+  color: #9b9b9b;
+
+}
 
 /* WORK TOGETHER */
 
@@ -422,7 +426,7 @@ color: #9b9b9b;
 
 
   .tagLine h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 40px 0px 0px 0px;
   }
 
@@ -430,7 +434,7 @@ color: #9b9b9b;
 
 
   .tagLine h4{
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 
 
