@@ -448,7 +448,7 @@ color: #9b9b9b;
   }
 
   .teamMinfo img{
-    height: 150px;
+    height: 140px;
   }
 
 
@@ -485,7 +485,7 @@ color: #9b9b9b;
 
 
 
-@media(max-width:399px) {
+@media(max-width:350px) {
 
   .homepage{
     padding: 170px 20px;
@@ -495,5 +495,10 @@ color: #9b9b9b;
   .mob-hmaburger-menu i {
       padding: 20px 15px 0px 10px;
   }
+
+  .teamMinfo img{
+    height: 200px;
+  }
+
 
 }
