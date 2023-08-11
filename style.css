@@ -421,12 +421,12 @@ color: #9b9b9b;
 
 
   .teamMinfo{
-    margin: 10px 20px 30px 20px;
+    margin: 10px 5px 30px 10px;
   }
 
 
   .tagLine h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 40px 0px 0px 0px;
   }
 
@@ -485,7 +485,7 @@ color: #9b9b9b;
 
 
 
-@media(max-width:350px) {
+@media(max-width:320px) {
 
   .homepage{
     padding: 170px 20px;
@@ -500,5 +500,8 @@ color: #9b9b9b;
     height: 200px;
   }
 
+  .tagLine h1{
+    font-size: 1rem;
+  }
 
 }
