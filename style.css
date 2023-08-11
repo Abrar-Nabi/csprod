@@ -163,7 +163,7 @@ padding: 150px 80px;
 
 }
  .workButton a:hover,
- .homepage .socialMedia img:hover
+ .socialMedia img:hover
  { 
   background-color:rgba(148, 144, 144, 0.867);
   transition: 0.7s ease;
