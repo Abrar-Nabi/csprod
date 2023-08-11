@@ -337,6 +337,27 @@ color: #9b9b9b;
 
 
 
+/* ABOUT US */
+.aboutus{
+  border-bottom: 1px solid rgb(100, 100, 100);
+}
+.aboutus img{
+  margin: 10px 0px 0px 0px;
+  height: 500px;
+}
+.aboutpara P{
+  color: #fff;
+}
+.aboutpara h1{
+ margin: 20px 0px 20px 0px;
+}
+
+
+.aboutpara{
+  margin: 10px 100px 10px 0px;
+}
+
+
 
 
 @media(max-width:799px) {
@@ -426,7 +447,7 @@ color: #9b9b9b;
 
 
   .tagLine h1{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 40px 0px 0px 0px;
   }
 
@@ -472,7 +493,36 @@ color: #9b9b9b;
  height:215px;
  border: 1px solid #fff;
 }
+.aboutus img{
+  margin: 10px 0px 0px 0px;
+  height: 250px;
 }
+
+.aboutbox {
+  flex-direction: column;
+}
+
+
+.aboutus p{
+
+  margin: 10px 30px 10px;
+  width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
