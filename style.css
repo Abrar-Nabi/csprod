@@ -330,7 +330,7 @@ color: #9b9b9b;
   color: #fff;
 }
 
- .copyright-section .myintro {
+ .copyright-section .intro {
   font-size: 12px;
   width: 100%;
   text-align: center;
@@ -339,6 +339,9 @@ color: #9b9b9b;
 }
 
 
+.copyright-section .contentwriter{
+  padding: 5px 0px 0px;
+}
 
 
 
@@ -490,9 +493,12 @@ font-size: 2rem;
 
 
   .tagLine h4{
-    font-size: 0.5rem;
+    font-size: 0.9rem;
   }
-
+  .tagLine h5{
+  
+    font-size: 0.7rem;
+  }
 
 
   .content{
@@ -545,7 +551,25 @@ font-size: 2rem;
   font-size: 1.2rem;
 }
 
+
+.heading h2{
+  font-size: 1.5rem;
 }
+
+.servicespage{
+  flex-direction: column;
+}
+
+.servicespage .serviceHeading h1 {
+  font-size: 1.5rem;
+}
+.servicepara p{
+  font-size: 1rem;
+}
+}
+
+
+
 
 
 
