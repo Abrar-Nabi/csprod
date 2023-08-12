@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Ubuntu&display=swap');
 
 .header {
-    
+
   box-shadow: 0 0px 5px rgb(111, 111, 111);
   /* animation: ColorChanges 2s 1; */
   background-color: #000000;
-   position: sticky;
-   top: 0;
-   left: 0;
-   z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
 
 }
 
@@ -23,7 +23,7 @@
 
 
 
-.header .logo-img img{
+.header .logo-img img {
   height: 70px;
   width: 100px;
 
@@ -40,89 +40,89 @@
 
 
 .header a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-icons li {
-   list-style: none;
-   position: relative;
+  list-style: none;
+  position: relative;
 }
 
 .nav-icons {
-   padding: 20px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 }
 
 .nav-icons a {
-   text-decoration: none;
-   margin: 0px 10px;
-   padding: 0 5px;
-   font-size: 20px;
-   color: rgb(255, 255, 255);
-   transition: 0.3s ease;
-   font-family: Times New Roman;
+  text-decoration: none;
+  margin: 0px 10px;
+  padding: 0 5px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s ease;
+  font-family: Times New Roman;
 }
 
 .nav-icons a:hover,
 .nav-icons a.active {
-   color: #ffde59;
+  color: #ffde59;
 }
 
 
 .nav-icons a.active::after,
 .nav-icons a:hover::after {
-   content: "";
-   width: 20%;
-   height: 2px;
-   background: #ffffff;
-   position: absolute;
-   bottom: -6px;
-   left: 15px;
+  content: "";
+  width: 20%;
+  height: 2px;
+  background: #ffffff;
+  position: absolute;
+  bottom: -6px;
+  left: 15px;
 }
 
 
 
-.nav-icons img{
+.nav-icons img {
   height: 25px;
   width: 25px;
 }
 
 #close {
-   display: none;
+  display: none;
 }
 
-.mob-hmaburger-menu img{
+.mob-hmaburger-menu img {
   width: 35px;
   height: 35px;
   padding: 0 10px;
-  
+
 }
 
 
-.mob-hmaburger-menu li{
+.mob-hmaburger-menu li {
   list-style: none;
 }
- 
+
 .mob-hmaburger-menu {
-   display: none;
+  display: none;
 
-   justify-content: center;
-   align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 
-.homepage{
-  
-background-image: url(images/homepage.png);
-height: auto;
-border-bottom: 1px solid rgb(100, 100, 100);
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-color: #ffffff;
-padding: 150px 80px;
+.homepage {
+
+  background-image: url(images/homepage.png);
+  height: auto;
+  border-bottom: 1px solid rgb(100, 100, 100);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 150px 80px;
 }
 
-.homepage .title{
+.homepage .title {
   background: transparent;
   color: #ffde59;
   font-family: 'Montserrat', sans-serif;
@@ -131,13 +131,13 @@ padding: 150px 80px;
   line-height: 4rem;
 }
 
-.homepage .title p{
+.homepage .title p {
   background: transparent;
   color: #ffffff;
 }
 
 
-.homepage .subtitle{
+.homepage .subtitle {
   background: transparent;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -147,54 +147,55 @@ padding: 150px 80px;
 
 
 .homepage .workButton {
-  
+
   margin: 15px 0 0 0px;
 }
-.homepage .workButton a{ 
+
+.homepage .workButton a {
   text-decoration: none;
   color: #000;
   background-color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
-	padding: 10px 15px;
-	border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  padding: 10px 15px;
+  border-radius: 20px;
   font-size: 20px;
-  
+
 
 }
- .workButton a:hover,
- .socialMedia img:hover
- { 
-  background-color:rgba(148, 144, 144, 0.867);
+
+.workButton a:hover,
+.socialMedia img:hover {
+  background-color: rgba(148, 144, 144, 0.867);
   transition: 0.7s ease;
   filter: invert(100%);
-  
- 
+
+
 
 }
 
- .socialMedia {
+.socialMedia {
   background: transparent;
-	margin: 30px 0px 0px 0px;
-  
+  margin: 30px 0px 0px 0px;
+
 }
 
- .socialMedia img{
+.socialMedia img {
   background: transparent;
   height: 40px;
   margin: 0px 10px 0px 0px;
   background-color: #ffffff;
   border-radius: 100%;
   padding: 5px;
-  
-  
+
+
 }
 
 
 
 
 /* OUR TEAM */
-.ourTeam{
+.ourTeam {
   background-image: url(images/our\ team.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -203,34 +204,37 @@ padding: 150px 80px;
 }
 
 .teamMinfo {
-  margin: 10px 20px 0px 20px; 
+  margin: 10px 20px 0px 20px;
 
 }
-.teamMinfo img{
+
+.teamMinfo img {
   height: 200px;
   border-radius: 100%;
 
 }
 
-.tagLine{
+.tagLine {
   border-bottom: 1px solid rgb(100, 100, 100);
 }
 
 
-.tagLine h1{
+.tagLine h1 {
   margin: 40px 40px 0px 40px;
 }
 
-.tagLine h4{
+.tagLine h4 {
   color: #9b9b9b;
   padding: 0;
 }
-.tagLine h5{
+
+.tagLine h5 {
   color: #9b9b9b;
   padding: 0px 0px 10px 0;
   font-size: 15px;
 }
-.teamDes p{
+
+.teamDes p {
   color: #9b9b9b;
 
 }
@@ -241,25 +245,26 @@ padding: 150px 80px;
   height: 400px;
 }
 
-.content .socialMedia{
-
- 
-    margin: 0;
-    width: 400px;
-  }
+.content .socialMedia {
 
 
-.content{
-color: #fff;
-margin: 30px 30px 0 30px;
+  margin: 0;
+  width: 400px;
+}
+
+
+.content {
+  color: #fff;
+  margin: 30px 30px 0 30px;
 
 }
 
 .contactdetails {
-	margin: 10px 0px 50px 0px;
+  margin: 10px 0px 50px 0px;
 }
-.contactdetails h3{
-color: #9b9b9b;
+
+.contactdetails h3 {
+  color: #9b9b9b;
 }
 
 
@@ -267,7 +272,7 @@ color: #9b9b9b;
 
 
 /* OUR PROJECTS */
-.projectsPage{
+.projectsPage {
   background-color: #000;
 }
 
@@ -285,7 +290,7 @@ color: #9b9b9b;
   transition: 0.2s ease;
   position: relative;
   margin: 10px;
-  
+
 
 }
 
@@ -297,24 +302,25 @@ color: #9b9b9b;
   font-size: 1.5rem;
   font-family: 'Ubuntu', sans-serif;
 
-  
-  
+
+
 }
-.description p{
-  
+
+.description p {
+
 
   font-size: 0.7rem;
- 
 
-  
-  
+
+
+
 }
 
-.yVideo{
- margin: 10px;
- width:350px;
- height:215px;
- border:1.5px solid #fff;
+.yVideo {
+  margin: 10px;
+  width: 350px;
+  height: 215px;
+  border: 1.5px solid #fff;
 }
 
 
@@ -330,7 +336,7 @@ color: #9b9b9b;
   color: #fff;
 }
 
- .copyright-section .intro {
+.copyright-section .intro {
   font-size: 12px;
   width: 100%;
   text-align: center;
@@ -339,30 +345,33 @@ color: #9b9b9b;
 }
 
 
-.copyright-section .contentwriter{
+.copyright-section .contentwriter {
   padding: 5px 0px 0px;
 }
 
 
 
 /* ABOUT US */
-.aboutus{
+.aboutus {
   border-bottom: 1px solid rgb(100, 100, 100);
 }
-.aboutus img{
+
+.aboutus img {
   margin: 10px 0px 0px 0px;
   height: 500px;
 }
-.aboutpara P{
+
+.aboutpara P {
   color: #fff;
   font-size: 1.6rem;
 }
-.aboutpara h1{
- margin: 20px 0px 20px 0px;
+
+.aboutpara h1 {
+  margin: 20px 0px 20px 0px;
 }
 
 
-.aboutpara{
+.aboutpara {
   margin: 10px 100px 10px 0px;
 }
 
@@ -371,26 +380,28 @@ color: #9b9b9b;
 
 /* our services */
 
-.servicespage .serviceHeading{
+.servicespage .serviceHeading {
   margin: 30px 10px 50px 40px;
 
 
 }
-.servicespage .serviceHeading h1{
+
+.servicespage .serviceHeading h1 {
   color: #fff;
   margin: 0px 10px;
   font-size: 2rem;
 
 }
-.heading h2 {
-color:#9b9b9b ;
 
-font-size: 2rem;
+.heading h2 {
+  color: #9b9b9b;
+
+  font-size: 2rem;
 
 }
 
 
-.servicepara p{
+.servicepara p {
   color: #fff;
   margin: 10px 30px;
   width: 250px;
@@ -399,7 +410,7 @@ font-size: 2rem;
 
 
 @media(max-width:799px) {
-  
+
   .nav-icons ul {
     display: flex;
     flex-direction: column;
@@ -414,77 +425,78 @@ font-size: 2rem;
     box-shadow: 0 40px 60ox rgba(0, 0, 0, 0.1);
     padding: 50px 0 0 0px;
     transition: 0.3s;
-}
+  }
 
-#navbar.active {
+  #navbar.active {
     right: 0px;
-}
+  }
 
-.nav-icons ul li {
+  .nav-icons ul li {
     margin-bottom: 25px;
-}
+  }
 
-.mob-hmaburger-menu {
+  .mob-hmaburger-menu {
     display: flex;
-}
+  }
 
-.mob-hmaburger-menu i {
+  .mob-hmaburger-menu i {
     color: #000;
     padding: 15px 15px 0px 10px;
-}
-.mob-hmaburger-menu img {
-   width: 25px;
-   height: 25px;
-   padding: 0 10px;
-   
-}
+  }
 
-#close {
+  .mob-hmaburger-menu img {
+    width: 25px;
+    height: 25px;
+    padding: 0 10px;
+
+  }
+
+  #close {
     display: flex;
     position: absolute;
     top: 15px;
     left: 230px;
     filter: none;
 
-}
+  }
 
 
 
-#close {
+  #close {
     font-size: 30px;
-}
+  }
 
-  .homepage{
+  .homepage {
     padding: 170px 40px;
 
   }
 
 
-  .homepage .title{
+  .homepage .title {
     font-size: 3rem;
     line-height: 2.5rem;
   }
 
 
-  .homepage .workButton button{
+  .homepage .workButton button {
     font-size: 15px;
   }
 
- .content .socialMedia{
-  width: 200px;
+  .content .socialMedia {
+    width: 200px;
   }
 
-  .socialMedia img{
+  .socialMedia img {
     height: 30px;
   }
 
 
-  .teamMinfo{
+  .teamMinfo {
     margin: 10px 5px 30px 10px;
   }
 
 
-  .tagLine h1{
+  .tagLine h1 {
     font-size: 1.3rem;
     margin: 40px 0px 0px 0px;
   }
@@ -492,24 +504,25 @@ font-size: 2rem;
 
 
 
-  .tagLine h4{
+  .tagLine h4 {
     font-size: 0.9rem;
   }
-  .tagLine h5{
-  
+
+  .tagLine h5 {
+
     font-size: 0.7rem;
   }
 
 
-  .content{
+  .content {
     flex-direction: column;
   }
 
-  .content .image{
+  .content .image {
     height: 300px;
   }
 
-  .teamMinfo img{
+  .teamMinfo img {
     height: 140px;
   }
 
@@ -518,55 +531,65 @@ font-size: 2rem;
 
 
 
-
-
-
-  
-.pro {
+  .pro {
     width: calc(100% - 1px);
     border: none;
 
+  }
+
+  .yVideo {
+    margin: 10px;
+    width: 90%;
+    height: 215px;
+    border: 1px solid #fff;
+  }
+
+
+
+  /* ABOUT US */
+  .aboutus img {
+    margin: 10px 0px 0px 0px;
+    height: 250px;
+  }
+
+  .aboutbox {
+    flex-direction: column;
+  }
+
+
+  .aboutus p {
+
+    margin: 10px 30px 10px;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+
+  .heading h2 {
+    font-size: 1.5rem;
+  }
+
+
+
+
+  /* OUR SERVICES */
+  .servicespage {
+    flex-direction: column;
+  }
+
+  .servicespage .serviceHeading h1 {
+    font-size: 1.5rem;
+  }
+
+  .servicepara p {
+    font-size: 1rem;
+  }
+
+  .serviceimg img{
+    height: 270px;
+  }
 }
 
-.yVideo{
- margin: 10px;
- width:90%;
- height:215px;
- border: 1px solid #fff;
-}
-.aboutus img{
-  margin: 10px 0px 0px 0px;
-  height: 250px;
-}
-
-.aboutbox {
-  flex-direction: column;
-}
-
-
-.aboutus p{
-
-  margin: 10px 30px 10px;
-  width: 100%;
-  font-size: 1.2rem;
-}
-
-
-.heading h2{
-  font-size: 1.5rem;
-}
-
-.servicespage{
-  flex-direction: column;
-}
-
-.servicespage .serviceHeading h1 {
-  font-size: 1.5rem;
-}
-.servicepara p{
-  font-size: 1rem;
-}
-}
 
 
 
@@ -589,28 +612,27 @@ font-size: 2rem;
 
 
 
-  
- 
+
 
 
 
 
 @media(max-width:320px) {
 
-  .homepage{
+  .homepage {
     padding: 170px 20px;
 
   }
 
   .mob-hmaburger-menu i {
-      padding: 20px 15px 0px 10px;
+    padding: 20px 15px 0px 10px;
   }
 
-  .teamMinfo img{
+  .teamMinfo img {
     height: 200px;
   }
 
-  .tagLine h1{
+  .tagLine h1 {
     font-size: 1rem;
   }
 
