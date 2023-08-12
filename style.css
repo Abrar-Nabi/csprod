@@ -223,7 +223,12 @@ padding: 150px 80px;
 
 .tagLine h4{
   color: #9b9b9b;
-  padding: 0 0 20px 0;
+  padding: 0;
+}
+.tagLine h5{
+  color: #9b9b9b;
+  padding: 0px 0px 10px 0;
+  font-size: 15px;
 }
 .teamDes p{
   color: #9b9b9b;
@@ -347,6 +352,7 @@ color: #9b9b9b;
 }
 .aboutpara P{
   color: #fff;
+  font-size: 1.6rem;
 }
 .aboutpara h1{
  margin: 20px 0px 20px 0px;
@@ -357,6 +363,35 @@ color: #9b9b9b;
   margin: 10px 100px 10px 0px;
 }
 
+
+
+
+/* our services */
+
+.servicespage .serviceHeading{
+  margin: 30px 10px 50px 40px;
+
+
+}
+.servicespage .serviceHeading h1{
+  color: #fff;
+  margin: 0px 10px;
+  font-size: 2rem;
+
+}
+.heading h2 {
+color:#9b9b9b ;
+
+font-size: 2rem;
+
+}
+
+
+.servicepara p{
+  color: #fff;
+  margin: 10px 30px;
+  width: 250px;
+}
 
 
 
@@ -507,6 +542,7 @@ color: #9b9b9b;
 
   margin: 10px 30px 10px;
   width: 100%;
+  font-size: 1.2rem;
 }
 
 }
