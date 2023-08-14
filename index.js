@@ -1,3 +1,8 @@
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
+
 const bar = document.getElementById('bar');
 const nav = document.getElementById('navbar');
 const close = document.getElementById('close');
