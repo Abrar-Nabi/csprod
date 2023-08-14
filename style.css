@@ -210,6 +210,7 @@
 
 .teamMinfo img {
   height: 200px;
+  border-radius: 50%;
   
 
 }
@@ -263,57 +264,34 @@
 .box{
   width: 200px;
   
-  box-shadow: 0 0 5px #bababa;
+  /* box-shadow: 0 0 5px #bababa; */
   overflow:hidden;
   position: relative;
 
 }
 
 .box .box-content{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
+  width: 95%;
+  height: 79%;
+  background-color: #000000be;
+  border-radius: 50%;
+  position:absolute;
   left: 0;
+  right: 0;
+  top: 4px;
+  left: 0;
+  transition: all 0.5s;
+  margin: auto;
+  opacity: 0;
     
 
 }
 
 
-.box .box-content:before,
-.box .box-content:after{
-  content:"";
-  width: 95%;
-  height: 47%;
-  background-color: #000000be;
-  position:absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  transition: all 0.5s;
-  opacity: 0;
-  
-}
-
-
-.box .box-content:before{
-  top: -50%;
- 
-  
-}
-.box .box-content::after{
-  bottom : -50%;
- 
-
-}
-.box:hover .box-content:before{
-  top: 3%;
+.box .opacityVisible{
   opacity: 0.8;
 }
-.box:hover .box-content::after{
-  bottom : 3%;
-  opacity: 0.8;
-}
+
 
 
 .box .content{
@@ -327,8 +305,6 @@
   text-align: center;
   margin: auto;
   z-index: 1;
-  opacity: 0;
-
   transform: all 0.5s;
 }
 
@@ -354,13 +330,10 @@
 .social img:hover{
 background-color: #868484;
 filter: invert(100%);
+transform: scale(1.2);
 
 }
 
-.box:hover .content{
-  opacity: 1;
-  
-}
 
 /* WORK TOGETHER */
 
@@ -622,7 +595,7 @@ filter: invert(100%);
     width: 150px;
   }
 
-  
+
   .teamMinfo img {
     width: 100%;
    height: auto;
@@ -781,3 +754,5 @@ filter: invert(100%);
   }
 
 }
+
+

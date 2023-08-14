@@ -13,5 +13,12 @@ if (close) {
 }
 
 
-      const currentYear = new Date().getFullYear();
-      document.getElementById("currentYear").textContent = currentYear;
+// const hoverContainer = document.querySelector('.box-content');
+//     hoverContainer.addEventListener('click', () => {
+//     hoverContainer.classList.toggle('opacityVisible');
+
+// });
+
+function show(classList) {
+    classList.toggle('opacityVisible');
+   }
