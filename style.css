@@ -201,18 +201,74 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  
+
 }
+
+
+
 
 .teamMinfo {
   margin: 10px 20px 10px 20px;
 
 }
 
+
+/* .teamMinfo:nth-child(2){
+ transition-delay: 200ms;
+}
+
+.teamMinfo:nth-child(3){
+  transition-delay: 400ms;
+}
+
+.teamMinfo:nth-child(3){
+  transition-delay: 600ms;
+}
+
+.teamMinfo:nth-child(4){
+  transition-delay: 800ms;
+}
+
+.teamMinfo:nth-child(5){
+  transition-delay: 1000ms;
+}
+
+.teamMinfo:nth-child(6){
+  transition-delay: 1200ms;
+}
+
+.teamMinfo:nth-child(7){
+  transition-delay: 1300ms;
+}
+
+.teamMinfo:nth-child(8){
+  transition-delay: 14000ms;
+} */
+
+
+
+
+
 .teamMinfo img {
   height: 200px;
   border-radius: 50%;
-  
 
+
+}
+
+.hideimg{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 3s;
+  
+}
+
+.showimg {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0);
 }
 
 .tagLine {
@@ -275,6 +331,7 @@
   height: 82%;
   background-color: #000000be;
   border-radius: 50%;
+  cursor: pointer;
   position:absolute;
   left: 0;
   right: 0;
@@ -285,6 +342,12 @@
     
 
 }
+
+.box:hover  .box-content{
+  opacity: 0.8;
+}
+
+
 
 
 .box .opacityVisible{
@@ -309,8 +372,9 @@
 
 .box .social {
   padding: 0;
-  margin: 50px 0px 0px;
+  margin: 0px;
   list-style: none;
+
 }
 .box .social li{
   display: inline-block;
@@ -325,6 +389,7 @@
   padding: 5px;
   border-radius: 50%;
   opacity: 0.5;
+
 
 }
 .social img:hover{
@@ -351,13 +416,21 @@ opacity: 1;
 
 
 .content {
-  color: #fff;
+  color: #fff !important;
   margin: 30px 30px 0 30px;
 
 }
 
 .contactdetails {
   margin: 10px 0px 50px 0px;
+}
+
+.contactdetails a{
+  text-decoration: none;
+  color: #fff !important;
+}
+.contactdetails a:visited{
+  color: #fff !important;
 }
 
 .contactdetails h3 {
@@ -581,6 +654,7 @@ opacity: 1;
 
   .content .socialMedia {
     width: 200px;
+    margin: 20px 0px 0px;
   }
 
   .socialMedia img {
@@ -620,6 +694,8 @@ opacity: 1;
   
   
   }
+
+ 
 
 
   .tagLine h1 {
@@ -676,12 +752,17 @@ opacity: 1;
     flex-direction: column;
   }
 
+  .aboutpara{
+    display: flex;
+    margin: 0;
+  }
 
   .aboutus p {
 
     margin: 10px 30px 10px;
     width: 100%;
     font-size: 1.2rem;
+    text-align: center;
   }
 
 
